@@ -2,6 +2,8 @@
 layout: default
 ---
 
+![Toi Ohomai Institute of technology](https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/a19b5381a95f1279340c21b8184547ae8dc56e7b/ToiOhomai_Images/TOI%20OHOMAI%20WM_Transparent_White.png)
+
 # Introduction to the course
 
 This course will cover the fundamentals of programming, but before we can begin we need to set up the tools we are using for this course.

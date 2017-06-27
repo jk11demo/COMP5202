@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Toi Ohomai Institute of technology](http://go.jwk.nz/kqEq/download/TOI%2520OHOMAI%2520WM_Wordmark%2520B%2520RT_RGB.jpg)
+![Toi Ohomai Institute of technology](https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/a19b5381a95f1279340c21b8184547ae8dc56e7b/ToiOhomai_Images/TOI%20OHOMAI%20WM_Transparent_White.png)
 
 # COMP.5202 Fundamentals of Programming
 
