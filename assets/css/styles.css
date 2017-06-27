@@ -188,6 +188,9 @@ section {
   float:right;
   padding-bottom:50px;
 
+  background-color: #222;
+  opacity: 0.7;
+
   /*border: 1px solid #f00;*/
 }
 

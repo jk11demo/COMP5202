@@ -1,3 +1,5 @@
+@import "jekyll-theme-primer";
+
 body {
   background-image:url('https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/master/ToiOhomai_Images/Toi%20Ohomai_Teal%20Background_PlusStars_1920x1080.png');
   background-repeat: no-repeat;
@@ -182,6 +184,9 @@ section {
   width:70%;
   float:right;
   padding-bottom:50px;
+
+  background-color: #222;
+  opacity: 0.7;
 
   /*border: 1px solid #f00;*/
 }
