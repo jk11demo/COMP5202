@@ -1,7 +1,6 @@
 ---
+layout: default
 ---
-
-@import "{{ site.theme }}";
 
 # Introduction to the course
 
