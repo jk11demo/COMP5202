@@ -255,9 +255,10 @@ footer {
 
   header {
     padding:0;
+    width:100%;
   }
 
-  .container {
+  section {
     width:100%;
   }
 
@@ -279,7 +280,11 @@ footer {
     width:99%;
   }
 
-  .container {
+header {
+width:100%;
+}
+
+  section {
     width:100%;
   }
 
