@@ -1,1 +1,2 @@
-theme: jekyll-theme-minimal
+baseurl: "/ToiOhomaiBCSTheme" 
+url: "localhost:4000" 
