@@ -4,7 +4,7 @@ This course will cover the fundamentals of programming, but before we can begin 
 
 # Important Links:
 
-## [Course Outline](https://github.com/ToiOhomaiBCS/COMP5202/tree/master/Week00)
+## [Course Outline](/Week00/readme.md)
 ## [Time Table for Semester 2](https://docs.google.com/spreadsheets/d/1Kyxe0idUb_O09J7hGecY9ttSa_Rm4I3UufUpQV9yhbQ/edit#gid=662877829)
 
 This course is designed that you can use any PC. You just need to install the tools on the PC you choose to work with.
