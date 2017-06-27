@@ -253,21 +253,22 @@ footer {
     word-wrap:break-word;
   }
 
-  header {
-    padding:0;
-    width:100%;
-  }
-
-  section {
-    width:100%;
-  }
-
   header ul, header p.view {
     position:static;
   }
 
   pre, code {
     word-wrap:normal;
+  }
+
+  header {
+    width:100%;
+    clear:both;
+  }
+
+  section {
+    width:100%;
+    clear:both;
   }
 }
 
@@ -280,16 +281,18 @@ footer {
     width:99%;
   }
 
-header {
-width:100%;
-}
+  header li, header ul li + li + li {
+    width:33%;
+  }
+
+  header {
+    width:100%;
+    clear:both;
+  }
 
   section {
     width:100%;
-  }
-
-  header li, header ul li + li + li {
-    width:33%;
+    clear:both;
   }
 }
 
