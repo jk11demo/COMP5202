@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Introduction to the course
 
 This course will cover the fundamentals of programming, but before we can begin we need to set up the tools we are using for this course.
