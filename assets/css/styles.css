@@ -262,12 +262,15 @@ footer {
   }
 
   header {
-    display: none;
+    width:100%;
+    clear:both;
+    padding: 5px 15px;
   }
 
   section {
     width:100%;
     clear:both;
+    padding: 5px 15px;
   }
 }
 
