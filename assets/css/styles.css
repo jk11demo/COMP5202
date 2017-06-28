@@ -219,13 +219,18 @@ footer {
     width:auto;
     margin:0;
   }
-  
+
   header, section, footer {
     width:100%;
     clear:both;
     padding: 5px 15px;
   }
 
+  header {
+    position: absolute;
+    top:5px;
+    left:10px;
+  }
 
   header a small {
     display:inline;
