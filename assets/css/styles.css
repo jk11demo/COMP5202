@@ -227,7 +227,7 @@ footer {
   }
 
   header {
-    position: absolute;
+    position: absolute !important;
     top:5px;
     left:10px;
   }
