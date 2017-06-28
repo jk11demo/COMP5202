@@ -248,6 +248,29 @@ footer {
   }
 }
 
+@media print, screen and (max-width: 1000px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
+  }
+
+  header {
+    display: none;
+  }
+
+  section {
+    width:100%;
+    clear:both;
+  }
+}
+
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
