@@ -230,6 +230,7 @@ footer {
     position: absolute !important;
     top:5px;
     left:10px;
+    margin-bottom: 50px;
   }
 
   header a small {
