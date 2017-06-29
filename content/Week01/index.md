@@ -9,7 +9,7 @@ permalink: /week01-index
 # Week 01:
 ## Into to tools and methods
 
-<a href="/COMP5202/week01-tutorial.html" class="btn btn-primary">Tutorials</a> 
+<a href="./week01-tutorial.html" class="btn btn-primary">Tutorials</a> 
 
 ---
 
@@ -26,22 +26,14 @@ Note that you are helping each other and it also means you need to be able to te
 Before you watch this video, you need to log into moodle.
 For this use the link at the top of this page.
 
-[![Lynda.com - Pair Programming](/COMP5202/assets/images/Lynda-Pair-Programming.jpg)](https://www.lynda.com/Web-Design-tutorials/Web-Career-Clinic/432037-2.html)
+<a href="https://www.lynda.com/Web-Design-tutorials/Web-Career-Clinic/432037-2.html" target="_blank">
+    <span class="images">
+        <img src="./assets/images/Lynda-Pair-Programming.jpg" >
+        <img class="playbtn playbtn2" src="./assets/images/playbtn.png" >
+    </span>
+</a>
 
 
----
-
-## .Net Core Tutorial
-
----
-
-This course is going to leverage a lot of external documentation and other media. This means you will use real-world examples and explanations of industry experts in addition to what is covered in this course directly.
-
-Microsoft has a dedicated website to teach to code in C#. This course is not a blanket copy of this website so not everything will be done. What you do not do in this course, you can do as extra practice in your own time.
-
-For now go to this website and complete the first page, so that you become familiar with a C# document. (Click on the image)
-
-[![.dotnet learn](/COMP5202/assets/images/dotnet.png)](https://www.microsoft.com/net/tutorials/csharp/getting-started/hello-world)
 
 ---
 
@@ -54,7 +46,12 @@ Note: Some of the videos I show you in this course are part of another course, s
 Although you are free to watch them (I can't stop you ) be aware that this course follows a different path to match the Degree pathway.  
 So do this course work first, then if you have time spare - watch the other videos if you like.  
 
-[![pluralsight](/COMP5202/assets/images/pluralsight.png)](https://www.lynda.com/Web-Design-tutorials/Web-Career-Clinic/432037-2.html)
+<a href="https://app.pluralsight.com/player?author=simon-allardice&name=what-is-programming-m1&mode=live&clip=3&course=what-is-programming" target="_blank">
+    <span class="images">
+        <img src="./assets/images/pluralsight.png" >
+        <img class="playbtn" src="./assets/images/playbtn.png" >
+    </span>
+</a>
 
 ---
 
@@ -70,4 +67,4 @@ So do this course work first, then if you have time spare - watch the other vide
 
 ---
 
-[Click here to find this weeks tutorials](/COMP5202/week01-tutorial)
+[Click here to find this weeks tutorials](./week01-tutorial)
