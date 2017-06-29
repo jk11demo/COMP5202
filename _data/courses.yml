@@ -4,7 +4,7 @@ sections:
     - name: Course Outline
       link: /COMP5202/courseoutline
     - name: Week 01
-      link: /COMP5202/week01-index
+      link: /week01-index
     - name: Week 02
       link: /COMP5202/week02-index
     - name: Week 03
