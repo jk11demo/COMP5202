@@ -4,7 +4,7 @@ author: Jeffrey Kranenburg
 email: jk11@g.toiohomai.ac.nz
 description: > 
   This course covers an introduction to programming using C#, Javascript and later on Swift. The focus is not the languages, but rather the concepts and being able to transfer between different languages.
-baseurl: "/"
+baseurl: "/COMP5202"
 url: "/" 
 twitter_username: jwknz
 github_username:  bcsjk11
