@@ -103,3 +103,13 @@ You can also use it to store your coding journal.
 To learn more about the concept of a coding journal have a look at this video.
 
 [![Coding Journal](https://i.ytimg.com/vi/cFhAaNoZsOo/0.jpg)](https://www.youtube.com/watch?v=cFhAaNoZsOo)
+
+---
+<br>
+## Class Setup
+
+The hours each week for this course are setup in a 2 - 1 - 2 format.
+
+The first 2 hour lab we will go over a concept showing examples using the C# language. The other 2 hour lab we do the same in JavaScript.
+
+The 1 hour lab is a `WindowsKey+L` session where we discuss the topic or concept at hand without using the computer. This one hour sessions might in some cases be the most valuable.

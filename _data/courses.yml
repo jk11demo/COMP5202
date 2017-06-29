@@ -1,10 +1,10 @@
 sections:
     - name: Home
       link: /COMP5202/
-    - name: Introduction
-      link: /COMP5202/content/Week00
+    - name: Course Outline
+      link: /COMP5202/courseoutline
     - name: Week 01
-      link: /COMP5202/content/Week01
+      link: /COMP5202/course/week01/
     - name: Week 02
       link: /COMP5202/content/Week02
     - name: Week 03
