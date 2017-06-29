@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Week 01
-post_author: Jeff
-date: 2017-01-01 16:00:00 +1200
 semester: Semester 17B
-permalink: /course/week01/tutorial
+coursecode: COMP502
+coursename: Fundamentals of Programming
+permalink: /week01-tutorial
 ---
 
 # Week 01:
 ## Into to tools and methods
 
-<a href="/course/week01/" class="btn btn-warning">Go back to notes</a> 
+<a href="/week01-index" class="btn btn-warning">Go back to notes</a> 
 
 ---
 

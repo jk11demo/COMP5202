@@ -2,36 +2,36 @@ sections:
     - name: Home
       link: /
     - name: Course Outline
-      link: courseoutline
+      link: /courseoutline
     - name: Week 01
-      link: course/week01/
+      link: /week01-index
     - name: Week 02
-      link: content/Week02
+      link: /Week02-index
     - name: Week 03
-      link: content/Week03
+      link: /Week03-index
     - name: Week 04
-      link: content/Week04
+      link: /Week04-index
     - name: Week 05
-      link: content/Week05
+      link: /Week05-index
     - name: Week 06
-      link: content/Week06
+      link: /Week06-index
     - name: Week 07
-      link: content/Week07
+      link: /Week07-index
     - name: Week 08
-      link: content/Week08
+      link: /Week08-index
     - name: Week 09
-      link: content/Week09
+      link: /Week09-index
     - name: Week 10
-      link: content/Week10
+      link: /Week10-index
     - name: Week 11
-      link: content/Week11
+      link: /Week11-index
     - name: Week 12
-      link: content/Week12
+      link: /Week12-index
     - name: Week 13
-      link: content/Week13
+      link: /Week13-index
     - name: Week 14
-      link: content/Week14
+      link: /Week14-index
     - name: Week 15
-      link: content/Week15
+      link: /Week15-index
     - name: Week 16
-      link: content/Week16
+      link: /Week16-index
