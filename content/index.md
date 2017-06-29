@@ -1,8 +1,10 @@
 ---
 layout: default
+semester: Semester 17B
+coursecode: COMP502
+coursename: Fundamentals of Programming
+permalink: /
 ---
-
-![Toi Ohomai Institute of technology](https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/a19b5381a95f1279340c21b8184547ae8dc56e7b/ToiOhomai_Images/TOI%20OHOMAI%20WM_Transparent_White.png)
 
 # Introduction to the course
 
@@ -10,8 +12,10 @@ This course will cover the fundamentals of programming, but before we can begin 
 
 # Important Links:
 
-## [Course Outline](Week00/readme.md)
-## [Time Table for Semester 2](https://docs.google.com/spreadsheets/d/1Kyxe0idUb_O09J7hGecY9ttSa_Rm4I3UufUpQV9yhbQ/edit#gid=662877829)
+* ## [Course Outline](Week00/readme.md)
+* ## [Time Table for Semester 2](https://docs.google.com/spreadsheets/d/1Kyxe0idUb_O09J7hGecY9ttSa_Rm4I3UufUpQV9yhbQ/edit#gid=662877829)
+
+# What I need
 
 This course is designed that you can use any PC. You just need to install the tools on the PC you choose to work with.
 It does not matter what Operating System you choose to work with, everything works on everything.
@@ -28,7 +32,7 @@ Also note that all the screenshots are made on a mac, but will look the same on 
 
 -----
 
-## Programs
+# Programs
 
 **[Visual Studio Code](https://code.visualstudio.com) (vscode)**  
 
@@ -37,8 +41,9 @@ Although you can use any text editor you wish, all the demo's will use VSCode fo
 
 | Windows | Linux | macOS |
 | --- | --- | --- | 
-| [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable) | [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable)  | [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable) |
+|  [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable) |  [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable)  |  [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable) |
 
+<br>
 **[Git](https://git-scm.com)**
 
 To safe and manage our code we will use git. This also the tool used to submit your assignments.  
@@ -50,8 +55,13 @@ You will be introduced in detail on how to use the basics of git. Note you will 
 
 ---
 ## Services
+<br>
+
+---
 
 **[Github](https://github.com/join?source=header-home)**
+
+---
 
 Next you need to create an account on [github.com](https://github.com), this is where you will save all of your work.
 
@@ -61,22 +71,35 @@ In the first class we will go through this process, if you have not done so alre
 
 For your email address it is recommended that you use your `@g.toiohomai.ac.nz` account, but you are allowed to use your own one as well. 
 
+---
+
 **[Slack](https://to-bcs.slack.com/)**
+
+---
 
 You can signup using your `@g.toiohomai.ac.nz` account. It must be this one, as we limit sign-ins to this account to limit who can access the channels.
 
+---
+
 **[Google Drive](https://drive.google.com)**
+
+---
 
 You can access your drive and emails using your `@g.toiohomai.ac.nz` google email account, with that comes Google Drive with unlimited space. Don't store your code on there as it can mess with the binaries. 
 You can ofcourse use it store docs, images and anything else. This account will be active forever so you can safely store your stuff on there.
 
 ---
+<br>
 ## Portfolio
 
+<br>
 For this course you will setup a portfolio for what you have created. This is done using Google Sites, which is created in Google Drive as a new document.
 
 Your code will be hosted on Github, but everything else will be setup on this site and shared with me (`jk11@g.toiohomai.ac.nz`) or made public.
 
 This portfolio is used to see how you do with your tutorial tasks and can be used for your job applications in the future. This will not be used for your assessments, although you must keep it up to date so that you can receive feedback on your progress.
 
-You can also use it to store your coding journal.
+You can also use it to store your coding journal.  
+To learn more about the concept of a coding journal have a look at this video.
+
+[![Coding Journal](https://i.ytimg.com/vi/cFhAaNoZsOo/0.jpg)](https://www.youtube.com/watch?v=cFhAaNoZsOo)

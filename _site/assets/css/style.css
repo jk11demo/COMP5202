@@ -19,9 +19,17 @@ body {
     background-size: 100%;
 }
 
+h1 {
+    font-size : 24pt;
+}
+
+h2 {
+    font-size : 20pt;
+}
+
 a{
     text-decoration: none;
-    color: white;
+    color: #aaa;
 }
 
 a.navlinks {
@@ -46,10 +54,6 @@ a.navlinks {
 }
 
 
-
-h1 {
-    font-size : 50px;
-}
 
 .section-left {
     background-color: rgba(255, 0, 0, 0.5);
@@ -99,8 +103,54 @@ th, td {
     padding-top: 10px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     
+    html, body {
+        font-size : 12pt;
+        font-family: arial;
+    }
+
+    body {
+        background-size: 100% 1000%;
+    }
+
+    h1 {
+        font-size : 18pt;
+    }
+
+    h2 {
+        font-size : 16pt;
+    }
+
+    h3 {
+        font-size : 14pt;
+    }
+
+    h1.title {
+        text-align: center;
+    }
+
+    p {
+        font-size : 12pt;
+    }
+    
+    th, td {
+        font-size: 12pt;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    a {
+        /*color: #f60;*/
+    }
+
+    p, img {
+        width: 100%;
+    }
+
     #desktop {
         display: block;
     }
