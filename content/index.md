@@ -12,7 +12,7 @@ This course will cover the fundamentals of programming, but before we can begin 
 
 # Important Links:
 
-* ## [Course Outline](Week00/readme.md)
+* ## [Course Outline](/COMP5202/courseoutline)
 * ## [Time Table for Semester 2](https://docs.google.com/spreadsheets/d/1Kyxe0idUb_O09J7hGecY9ttSa_Rm4I3UufUpQV9yhbQ/edit#gid=662877829)
 
 # What I need
