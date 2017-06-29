@@ -3,7 +3,7 @@ layout: default
 semester: Semester 17B
 coursecode: COMP502
 coursename: Fundamentals of Programming
-permalink: /courseoutline
+permalink: /COMP5202/courseoutline
 ---
 
 # COURSE OUTLINE 2017 Semester B

@@ -2,7 +2,7 @@
 layout: page
 title: About
 date: 2017-01-01 16:00:00 +1200
-permalink: /about/
+permalink: /COMP5202/about/
 semester: Semester 17B
 ---
 
