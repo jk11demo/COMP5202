@@ -1,8 +1,8 @@
 sections:
     - name: Home
-      link: /
+      link: /COMP5202/
     - name: Course Outline
-      link: /courseoutline
+      link: /COMP5202/courseoutline
     - name: Week 01
       link: /week01-index
     - name: Week 02
