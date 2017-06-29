@@ -4,7 +4,7 @@ title: Week 01
 post_author: Jeff
 date: 2017-01-01 16:00:00 +1200
 semester: Semester 17B
-permalink: /COMP5202/course/week01/
+permalink: /course/week01/
 ---
 
 # Week 01:
@@ -27,7 +27,7 @@ Note that you are helping each other and it also means you need to be able to te
 Before you watch this video, you need to log into moodle.
 For this use the link at the top of this page.
 
-[![Lynda.com - Pair Programming](/COMP5202/assets/images/Lynda-Pair-Programming.jpg)](https://www.lynda.com/Web-Design-tutorials/Web-Career-Clinic/432037-2.html)
+[![Lynda.com - Pair Programming](/assets/images/Lynda-Pair-Programming.jpg)](https://www.lynda.com/Web-Design-tutorials/Web-Career-Clinic/432037-2.html)
 
 
 ---
@@ -42,7 +42,7 @@ Microsoft has a dedicated website to teach to code in C#. This course is not a b
 
 For now go to this website and complete the first page, so that you become familiar with a C# document. (Click on the image)
 
-[![.dotnet learn](/COMP5202//assets/images/dotnet.png)](https://www.microsoft.com/net/tutorials/csharp/getting-started/hello-world)
+[![.dotnet learn](/assets/images/dotnet.png)](https://www.microsoft.com/net/tutorials/csharp/getting-started/hello-world)
 
 ---
 
@@ -55,7 +55,7 @@ Note: Some of the videos I show you in this course are part of another course, s
 Although you are free to watch them (I can't stop you ) be aware that this course follows a different path to match the Degree pathway.  
 So do this course work first, then if you have time spare - watch the other videos if you like.  
 
-[![pluralsight](/COMP5202//assets/images/pluralsight.png)](https://www.lynda.com/Web-Design-tutorials/Web-Career-Clinic/432037-2.html)
+[![pluralsight](/assets/images/pluralsight.png)](https://www.lynda.com/Web-Design-tutorials/Web-Career-Clinic/432037-2.html)
 
 ---
 

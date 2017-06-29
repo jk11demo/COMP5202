@@ -3,7 +3,7 @@ layout: default
 semester: Semester 17B
 coursecode: COMP502
 coursename: Fundamentals of Programming
-permalink: /COMP5202/
+permalink: /
 ---
 
 # Introduction to the course
@@ -12,7 +12,7 @@ This course will cover the fundamentals of programming, but before we can begin 
 
 # Important Links:
 
-* ## [Course Outline](/COMP5202/courseoutline)
+* ## [Course Outline](/courseoutline)
 * ## [Time Table for Semester 2](https://docs.google.com/spreadsheets/d/1Kyxe0idUb_O09J7hGecY9ttSa_Rm4I3UufUpQV9yhbQ/edit#gid=662877829)
 
 # What I need

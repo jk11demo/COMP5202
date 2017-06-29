@@ -1,37 +1,37 @@
 sections:
     - name: Home
-      link: /COMP5202/
+      link: /
     - name: Course Outline
-      link: /COMP5202/courseoutline
+      link: courseoutline
     - name: Week 01
-      link: /COMP5202/course/week01/
+      link: course/week01/
     - name: Week 02
-      link: /COMP5202/content/Week02
+      link: content/Week02
     - name: Week 03
-      link: /COMP5202/content/Week03
+      link: content/Week03
     - name: Week 04
-      link: /COMP5202/content/Week04
+      link: content/Week04
     - name: Week 05
-      link: /COMP5202/content/Week05
+      link: content/Week05
     - name: Week 06
-      link: /COMP5202/content/Week06
+      link: content/Week06
     - name: Week 07
-      link: /COMP5202/content/Week07
+      link: content/Week07
     - name: Week 08
-      link: /COMP5202/content/Week08
+      link: content/Week08
     - name: Week 09
-      link: /COMP5202/content/Week09
+      link: content/Week09
     - name: Week 10
-      link: /COMP5202/content/Week10
+      link: content/Week10
     - name: Week 11
-      link: /COMP5202/content/Week11
+      link: content/Week11
     - name: Week 12
-      link: /COMP5202/content/Week12
+      link: content/Week12
     - name: Week 13
-      link: /COMP5202/content/Week13
+      link: content/Week13
     - name: Week 14
-      link: /COMP5202/content/Week14
+      link: content/Week14
     - name: Week 15
-      link: /COMP5202/content/Week15
+      link: content/Week15
     - name: Week 16
-      link: /COMP5202/content/Week16
+      link: content/Week16
