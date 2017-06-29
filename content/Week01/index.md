@@ -3,7 +3,7 @@ layout: default
 semester: Semester 17B
 coursecode: COMP502
 coursename: Fundamentals of Programming
-permalink: /COMP5202/week01-index
+permalink: /week01-index
 ---
 
 # Week 01:
