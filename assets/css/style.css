@@ -32,6 +32,10 @@ a{
     color: #aaa;
 }
 
+a:hover {
+    color: #ff0;
+}
+
 a.navlinks {
     font-size : 12pt;
 }
@@ -66,6 +70,17 @@ tr, td, thead {
 
 th, td {
     width: 30%;
+    padding: 10px;
+}
+
+blockquote {
+    color: #e9e9e9;
+    border-color: orange;
+    padding: 10px;
+}
+
+.info-tip {
+    padding: 10px;
 }
 
 iframe {
@@ -80,7 +95,7 @@ iframe {
 img.playbtn {
     position: absolute;
     left: 25%;
-    top: -90px;
+    top: -88px;
     height: 200px;
     background-repeat: no-repeat;
     opacity: 0.7;

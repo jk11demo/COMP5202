@@ -27,22 +27,18 @@ Once you have picked a team partner, Go through the next set of tutorials as a p
 
 ---
 
-Visual Studio Code is an open source lightweight code editor. It has the option to add extensions, just like most modern web browsers these days. To learn more about Visual Studio Code read through this link:
-
-// Check this
+Visual Studio Code is an open source lightweight code editor. It has the option to add extensions, just like most modern web browsers these days. To learn more about Visual Studio Code read through [this link](./setup-vscode)
 
 ---
 
-## Tutorial 3: Create your first program and commit it to Gtihub
+## Tutorial 3: Create your first git repo and commit to it
 
 ---
 
-In this tutorial you are going to explore Github. Github is a place where you manage, store and share your code. This web app is basically a front end to some of the options that is provided by Git - Github is basically a pretty face for it.
-For this tutorial task you do not need to create a program. Simply create a text file and add some content in it and upload that.
-* Create a folder called test on your Desktop
-* Create a file (just a plain text file, not a word document) and add in your name and student ID 
+Let's have a quick look at how git works and create a repository.
+This will not leave your machine, but gives you an introduction of how to start.
 
-* // Finish this 
+[Learn to git](./first-git)
 
 ---
 
@@ -50,13 +46,12 @@ For this tutorial task you do not need to create a program. Simply create a text
 
 ---
 
-This tutorial is a bit of a process to get through, but will get easier with practice. When you are done with it, work on it with a another student and explain the process. If you do not need this document you are well on your way to manage this process.
-The document is 8 pages long, but you won't need to do everything every time, some of the parts focus on installing dotNet Core - which is a one time process.
+This task splits up in 2 sections, one is for C# and the other is for JavaScript.
 
-Right click and open this link in a new page:
-[Tutorial 4](https://docs.google.com/document/d/13x8tgzvwBRCLoayli8668Ok2hIWqlTXT3KteKrSVVtw/view)
+Each button will open in a new tab, follow the steps on each page to complete the task
 
-All the tutorials are available for you to comment on. If you have any feedback add a comment and your student id number so I get can back to you or thank you for the feedback.
+<a href="./notes-csharp" target="_blank" class="iconlrg btn btn-info"><i class="devicon-csharp-plain">  C# Module</i></a>
+<a href="./notes-javascript" target="_blank" class="iconlrg btn btn-warning"><i class="devicon-javascript-plain">  JS Module</i></a>
 
 ---
 
@@ -67,11 +62,13 @@ All the tutorials are available for you to comment on. If you have any feedback 
 Deploying your application means you are ready to set it up so other people can use it.  
 So far you the app(s) you have run have been done inside a development environment. All the tools you need have been installed. What if you want to show your application on a machine that doesn't have these tools installed?  
 Full on windows / macOS and Linux apps will need to be packaged and can run from a single file.  
+
 dotNetCore is slightly different, yes there is a single application file, but it is in a folder that has the dependencies with it. This might and hopefully will change in the future, but for now it is about keeping it all inside a folder.  
+
 Now the platform will still create an executable file and you can still run that by double-clicking on it - so let's have a look at how to do that.  
 Once you have published your app you will need to do a git commit to update the changes in your repository  
 
-[Deploy your app](https://drive.google.com/file/u/0/d/0B1BauHSV0pwNbUR5T2MtOE1yUDg/view)
+[Deploy your app](./dotnet-core-deploy)
 
 ---
 
@@ -83,7 +80,7 @@ When we code, we often repeat certain code blocks or patterns quite often. Some 
 However some are tedious - for example what if every time you started a project you had to retype the beginning and end part of a program?  
 Let's have a look at how we make life a little easier using user code snippets.  
 
-[Code Snippets](https://docs.google.com/document/d/1JMDtsd_EWFMB1u-Hj80qkwVqgM2kNnRGG53xyfoFXwk/edit)
+[Code Snippets](./vscode-code-snippet)
 
 ---
 

@@ -16,3 +16,7 @@ The content on these pages will be updated without notifications, just when we n
 
 * [Using git locally on your machine](/setup-git)
 * [Pushing your code to a remote repository](/remote-git)
+
+## @g.toiohomai.ac.nz help
+
+* [Resetting your @g.toiohomai.ac.nz password](https://drive.google.com/open?id=0BwNXJV5fT4jyNHFadTcxWkhxV0k)
