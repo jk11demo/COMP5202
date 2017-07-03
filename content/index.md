@@ -1,7 +1,7 @@
 ---
 layout: default
 semester: Semester 17B
-coursecode: COMP502
+coursecode: COMP5202
 coursename: Fundamentals of Programming
 permalink: /
 ---
@@ -39,9 +39,9 @@ Also note that all the screenshots are made on a mac, but will look the same on 
 The  IDE (Integrated Development Environment) we will use is Visual Studio Code.
 Although you can use any text editor you wish, all the demo's will use VSCode for consistency. In addition to that, all the coding you do in this course can be completed using vscode.
 
-| Windows | Linux | macOS |
-| --- | --- | --- | 
-|  [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable) |  [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable)  |  [download](https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable) |
+| Windows | Mac | Linux |
+| --- | --- | --- |
+| [Download](https://vscode-update.azurewebsites.net/latest/win32/stable) | `brew cask install visual-studio-code` | [Download]((https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable)) |
 
 <br>
 **[Git](https://git-scm.com)**
