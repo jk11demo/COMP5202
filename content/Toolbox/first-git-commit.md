@@ -1,7 +1,7 @@
 ---
 layout: default
 semester: Semester 17B
-coursecode: COMP502
+coursecode: COMP5202
 coursename: Fundamentals of Programming
 permalink: /first-git
 ---
@@ -9,7 +9,7 @@ permalink: /first-git
 # Learning about Git:
 ## Creating your first repo and commit
 
-For this tutorial we are going to explore git. We will just do some surface stuff to get you used to the idea and have a look what the important parts are to look.
+For this tutorial, we are going to explore git. We will just do some surface stuff to get you used to the idea and had a look what the important parts are to look.
 
 1) Open Git-bash (On Windows) / terminal (On macOS or Linux)  
 2) Navigate to your desktop.
@@ -22,9 +22,9 @@ cd /c/Users/studentid/Desktop/
 cd ~/Desktop
 ```
 
-Although the `~/Desktop` command will work on your own machine, On other machines that have been preconfigured, your home user folder might be on a different place.
+Although the `~/Desktop` command will work on your own machine, On preconfigured machines, your home user folder might be in a different place.
 
-3) To create a git repository we use the following command
+3) To create a git repository, we use the following command
 
 `git init <foldername>`
 
@@ -38,12 +38,12 @@ Type in the following command to create a git repository
 
 5) To open this folder in vscode, type in `code .`
 
-This will open vscode with this folder as your context.  
+This command will open vscode with this folder as your context.  
 
 > Tip: If you want to create a new file in this folder at the same time you can type in  
-`code name-of-your-file.extention` <br> Try typing in `code index.html` from the terminal
+`code name-of-your-file.extension` <br> Try typing in `code index.html` from the terminal
   
-6) In the main area you can type something in, since you created an **html** file type in `!` followed by the `<TAB>` Key. Don't worry about what it means, it is just a basic website template.
+6) In the editor section, you can type something in, since you created an **HTML** file type in `!` followed by the `<TAB>` Key. Don't worry about what it means; it is just a basic website template.
   
 You will notice that the file symbol has a blue circle with a number one in it, this means you have one file that has not been saved.
   

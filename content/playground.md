@@ -1,7 +1,7 @@
 ---
 layout: default
 semester: Semester 17B
-coursecode: COMP502
+coursecode: COMP5202
 coursename: Fundamentals of Programming
 permalink: /playground
 ---

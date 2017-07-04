@@ -1,17 +1,17 @@
 ---
 layout: default
 semester: Semester 17B
-coursecode: COMP502
+coursecode: COMP5202
 coursename: Fundamentals of Programming
-permalink: /notes-csharp
+permalink: /week01-csharp
 ---
 
 # Week 01:
-## First time C# - Install dotnet SDK (only once)
+## First-time C# - Install dotnet SDK (only once)
 
-To start working with C# you will need to install the `dotnet SDK`, so that you can compile (run and see) your application.
+To start working with C#, you will need to install the `dotnet core SDK`, so that you can compile (run and see) your application.
 
-The best way to see how to install it is to follow the instructions directly from microsoft.
+The best way to see how to install it is to follow the instructions directly from Microsoft.
 
 Select the right page for the Operating System you are using:
 
@@ -24,9 +24,9 @@ Select the right page for the Operating System you are using:
 Open up the terminal  
 
 You can follow along on the dotnet website to create your first `Hello World` app, but here are some more tips:
-After you create your [git repository](./first-git) you can do the following to create your C# app.
+After you create your [git repository](./first-git), you can do the following to create your C# app.
 
-| Command | Explaination |
+| Command | Explanation |
 | --- | --- |
 | `dotnet new console` | This will create the new app in the current folder, so makes sure you are where you want the app to be |
 | `dotnet new console -o folder` | This will create the new app in a specified folder with the project being the same name |
@@ -38,14 +38,14 @@ If you have not installed the C# extension yet, you need to do that now. [Go her
 
 ## Changing the Program.cs file
 
-The `Program.cs` file is the main file for your program, we will create other files later on.
+The `Program.cs` file is the main file for your application and we will create other files later on.
 In the Main method you will see a line called `Console.WriteLine("Hello Wolrd!")`
 
 Change this into `Console.WriteLine("Welcome to COMP5202 - Programming Fundamentals")`
 
 Back in the terminal run the following commands:
 
-* `dotnet build` you should see 2 green lines, saying that you have 0 warnings and 0 errors.
+* `dotnet build` you should see two green lines, saying that you have 0 warnings and 0 errors.
 * `dotnet run` this will show the line you just wrote on the screen.
 
 There you go, your first simple app.

@@ -1,7 +1,7 @@
 ---
 layout: default
 semester: Semester 17B
-coursecode: COMP502
+coursecode: COMP5202
 coursename: Fundamentals of Programming
 permalink: /courseoutline
 ---
@@ -10,16 +10,14 @@ permalink: /courseoutline
 
 ## Introduction
 
-Welcome to COMP.5202 Fundamentals in Programming. This is a level 5 course with a credit value of 15.
- 
-This course outline covers the aim of the course, expected learning outcomes, assessments, and general Information. 
+Welcome to COMP.5202 Fundamentals in Programming. This course is a level 5 qualification with a credit value of 15.
+The course outline covers the aim of the course, expected learning outcomes, assessments, and general Information. 
 
 ---
 
 ## Course Aim
 
-In this paper we cover an introduction to programming, the terminology and the tools that are used.
-
+In this paper, we go over an introduction to programming; it also covers the use of the terminology and the tools.
 By the end of it, you will have a good understanding of what the differents parts are that make up a program and how to think about the design part of it.
 
 ---
@@ -41,16 +39,16 @@ Jeffrey Kranenburg
 1. Apply programming concepts and tools to system management tasks. 
 2. Demonstrate awareness of procedural and object oriented programming.
 3. Apply principles of implementation (user testing, deployment).
-4. Demonstrate programming using core logic and mathematical concepts such as problem solving methods, critical thinking, abstract reasoning; and systems thinking. 
+4. Demonstrate programming using core logic and mathematical concepts such as problem-solving methods, critical thinking, abstract reasoning; and systems thinking. 
 
 ---
 
 ## Course Topics
 
-1. Development Tools; Integrated development environment (IDE), flow diagrams and/or pseudo code, accessing and reading technical help documentation.
+1. Development Tools; Integrated development environment (IDE), flow diagrams and pseudocode, accessing and reading technical help documentation.
 2. Fundamental programming constructs and principles; Readable code, data types, variables, operators, selection, iteration and data structures (arrays).
 3. Object Oriented Programming; Classes, fields, constructors and methods. 
-4. Implementation Principles; Create a simple application which includes accessing and using a class, practical debugging techniques.
+4. Implementation-Principles; Create a simple application which includes accessing and using a class, practical debugging techniques.
 
 ---
 
@@ -71,15 +69,15 @@ None
 Good websites to check out:
 * [Stackoverflow](http://stackoverflow.com) (Q & A Site)
 * [Google](http://google.com) (this is a skill)
-* [Lynda.com](http://moodle2.boppoly.ac.nz/course/view.php?id=2976) (login through moodle)
+* [Lynda.com](http://moodle2.boppoly.ac.nz/course/view.php?id=2976) (login into Moodle)
 
 ---
 
 ## Course Structure and Workload
 
-This course will be taught over a semester with 16 Teaching weeks. Each week will have 5 hours of class time.
+This course spreads over a semester with 16 Teaching weeks.  Each week will have 5 hours of class time.
 
-This course is taught in a blended model where you get the material at home and in the classroom we work on tasks to model what is happening in industry
+This course uses a blended model where you get the material at home and in the classroom we work on tasks to model what is happening in industry
 
 All of the classes are in DT308 and are set up as:
 
