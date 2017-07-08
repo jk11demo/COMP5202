@@ -8,7 +8,7 @@ permalink: /
 
 # Introduction to the course
 
-This course will cover the fundamentals of programming, but before we can begin, we need to set up the tools we are using for this course.
+This course will cover the fundamentals of programming and problem solving, but before we can begin, we need to set up the tools we are using for this course.
 
 # Relevant Links:
 
@@ -39,7 +39,7 @@ Although you can use any text editor you wish, all the demo's will use VSCode fo
 
 | Windows | Mac | Linux |
 | --- | --- | --- |
-| [Download](https://vscode-update.azurewebsites.net/latest/win32/stable) | `brew cask install visual-studio-code` | [Download]((https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable)) |
+| [Download](https://vscode-update.azurewebsites.net/latest/win32/stable) | [Download](https://vscode-update.azurewebsites.net/latest/darwin/stable)| [Download]((https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable)) |
 
 <br>
 **[Git](https://git-scm.com)**
@@ -102,7 +102,7 @@ This portfolio is used to see how you do with your tutorial tasks and will be us
 You can also use it to store your coding journal.  
 To learn more about the concept of a coding journal have a look at this video.
 
-[![Coding Journal](https://i.ytimg.com/vi/cFhAaNoZsOo/0.jpg)](https://www.youtube.com/watch?v=cFhAaNoZsOo)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cFhAaNoZsOo" frameborder="0" allowfullscreen></iframe>
 
 ---
 <br>
