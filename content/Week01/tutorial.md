@@ -28,7 +28,8 @@ Once you have picked a team partner, Go through the next set of tutorials as a p
 ---
 
 Visual Studio Code is an open source lightweight code editor. It has the option to add extensions, just like most modern web browsers these days. To learn more about Visual Studio Code read through [this link](./setup-vscode)
-* Also read through [this link](/Toolbox/VSCode/walkthrough)
+<br>
+Also read through [this link](/Toolbox/VSCode/walkthrough)
 ---
 
 ## Tutorial 3: Create your first git repo and commit to it
