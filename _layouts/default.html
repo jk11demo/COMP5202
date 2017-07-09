@@ -17,17 +17,13 @@
     <body>
         <div class="constalation">
         <!-- Content beings here -->        
-            <nav class="navbar navbar-inverse">
+            <nav class="navbar ">
                 <div class="container-fluid">
 
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             
-                            <span class="sr-only"></span>
-                            {% for item in site.data.navigation.docs %}
-                            <span class="icon-bar">
-                            </span>
-                            {% endfor %}
+                        <i class="fa fa-bars" style=" color: #fff"></i>
                         
                         </button>
                         <a class="navbar-brand" href="#">{{site.title}}</a>
@@ -87,12 +83,12 @@
                         <th>Social</th>
                     </thead>
                     <tr>
-                        <td><h3><a href="https://to-bcs.slack.com/messages/{{ site.slackclass }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > {{ site.slackclass }}</i></a></h3></td>
-                        <td><h3><a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true" > {{ site.github_username }}</i></a></h3></td>
+                        <td><h3><a href="https://to-bcs.slack.com/messages/{{ site.slackclass }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > </i>{{ site.slackclass }}</a></h3></td>
+                        <td><h3><a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true" ></i> {{ site.github_username }}</a></h3></td>
                     </tr>
                     <tr>
-                        <td><h3><a href="https://to-bcs.slack.com/messages/@{{ site.slacktutor }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > {{ site.slacktutor }}</i></a></h3></td>
-                        <td><h3><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" > {{ site.twitter_username }}</i></a></h3></td>
+                        <td><h3><a href="https://to-bcs.slack.com/messages/@{{ site.slacktutor }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > </i>{{ site.slacktutor }}</a></h3></td>
+                        <td><h3><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" > </i>{{ site.twitter_username }}</a></h3></td>
                     </tr>
                 </table>
 
