@@ -4,65 +4,104 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ site.title | default: site.github.repository_name }} by {{ site.author }}</title>
-
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-        <link rel="stylesheet" href="{{ '/assets/css/menu.css?v=' | append: site.github.build_revision | relative_url }}">
     </head>
     <body>
-        <header class="topbanner">
-            <a href="//to-bcs.nz">
-            <img class="logo" src="https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/master/ToiOhomai_Images/TOI%20OHOMAI%20WM_Transparent_White.png" alt="Toi Ohomai Logo" >
-            <img class="logo-right" src="https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/master/ToiOhomai_Images/Constellation-Cropped.png" alt="Toi Ohomai Logo" >
-            </a>
-            <nav class="navbar">
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                    {% for item in site.data.navigation.docs %}
-                        <li><a class="navlinks" href="{{ item.url }}" alt="{{ item.title }}" target="_blank">{{ item.title }}</a></li>
-                    {% endfor %}
-                    </ul>
+        <div class="constalation">
+        <!-- Content beings here -->        
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            
+                            <span class="sr-only"></span>
+                            {% for item in site.data.navigation.docs %}
+                            <span class="icon-bar">
+                            </span>
+                            {% endfor %}
+                        
+                        </button>
+                        <a class="navbar-brand" href="#">{{site.title}}</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                        {% for item in site.data.navigation.docs %}
+                            <li><a class="navlinks" href="{{ item.url }}" alt="{{ item.title }}" target="_blank">{{ item.title }}</a></li>
+                        {% endfor %}
+                        {% for item in site.data.courses.sections %}
+                            <li><a class="navlinks" id="desktop" href="{{ item.link }}">{{ item.name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    </div>
                 </div>
             </nav>
-        </header>
-        <div class="coursetitle">
-            <span class="coursename">{{page.coursecode}} - {{page.coursename}}</span>
-        </div>
 
-        <nav class="navbar2" >
-            <label for="drop" class="toggle"><i class="fa fa-bars" aria-hidden="true">&nbsp;&nbsp;Menu</i></label>
-            <input type="checkbox" id="drop" />
-            <ul class="menu">
-                {% for item in site.data.navigation.docs %}
-                    <li><a class="navlinks" href="{{ item.url }}" alt="{{ item.title }}" target="_blank">{{ item.title }}</a></li>
-                {% endfor %}
-                <hr>
-                {% for item in site.data.courses.sections %}
-                    <li><a class="navlinks" id="desktop" href="{{ item.link }}">{{ item.name }}</a></li>
-                {% endfor %}
-            </ul>
-        </nav>
+            <div class="container-fluid wrapper">
 
-        <div class="my-grid">
-            <div class="boxes">
-                <div class="setTable side">
-                    <ul class="coursemenu list-group">
-                        {% for item in site.data.courses.sections %}
-                        <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
-                        {% endfor %}
-                    </ul>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img style="width:40%" src="https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/master/ToiOhomai_Images/Merged-Toi-Ohomai.png" alt="toiohomai logo" />
+                        <h1 class="title" style="color:#aaa">{{ page.coursecode | default: page.post_title }}</h1>
+                        <h2 class="title" style="color:#aaa">{{ page.coursename }}</h2>
+                        <a href="{{ site.github.repository_url }}" class="btn btn-success">View on GitHub</a>
+                        <span class="btn btn-primary">{{page.semester}}</span>
+                        <a href="https://to-bcs.slack.com/messages/{{ site.slackclass }}" target="_blank" class="btn btn-default"><i class="fa fa-slack" aria-hidden="true" > Chat on Slack</i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="boxes">
-                <div class="content">
-                    {{content}}
+
+                <br>
+
+                <div class="row">
+                    <div class="col-sm-2 col-xs-12" id="siderow">
+                        <ul class="coursemenu list-group">
+                            {% for item in site.data.courses.sections %}
+                            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-8 col-xs-12 coursemenu">
+                        <div class="background">
+                            {{ content }}
+                        </div>
+                    </div>
                 </div>
+
             </div>
-            <div class="boxes">
-                <div class="setTable side"></div>
-            </div>
+            
+            <footer class="footer push" >
+
+                <table class="table boxsizing">
+                    <thead>
+                        <th>Slack</th>
+                        <th>Social</th>
+                    </thead>
+                    <tr>
+                        <td><h3><a href="https://to-bcs.slack.com/messages/{{ site.slackclass }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > {{ site.slackclass }}</i></a></h3></td>
+                        <td><h3><a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true" > {{ site.github_username }}</i></a></h3></td>
+                    </tr>
+                    <tr>
+                        <td><h3><a href="https://to-bcs.slack.com/messages/@{{ site.slacktutor }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > {{ site.slacktutor }}</i></a></h3></td>
+                        <td><h3><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" > {{ site.twitter_username }}</i></a></h3></td>
+                    </tr>
+                </table>
+
+            </footer>
         </div>
+        <!-- Content ends here -->
+        <script   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous"></script>
+    
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
