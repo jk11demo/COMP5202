@@ -71,6 +71,7 @@ Now the platform will still create an executable file and you can still run that
 Once you have published your app you will need to do a git commit to update the changes in your repository  
 
 <a href="//to-bcs.nz/DotNetCore/dotnet-core-deploy" target="_blank">Deploy your app</a>
+
 ---
 
 ## Tutorial 6: Setting up Code Snippets
@@ -82,6 +83,7 @@ However, some are tedious - for example, what if every time you started a projec
 Let's have a look at how we make life a little easier using user code snippets.  
 
 <a href="//to-bcs.nz/VSCode/code-snippet" target="_blank">Code Snippets</a>
+
 ---
 
 ## Tutorial #7 - Looking at Documentation
