@@ -27,9 +27,10 @@ Once you have picked a team partner, Go through the next set of tutorials as a p
 
 ---
 
-Visual Studio Code is an open source lightweight code editor. It has the option to add extensions, just like most modern web browsers these days. To learn more about Visual Studio Code read through [this link](./setup-vscode)
+Visual Studio Code is an open source lightweight code editor. It has the option to add extensions, just like most modern web browsers these days. To learn more about Visual Studio Code read through <a href="//to-bcs.nz//Toolbox/VSCode/walkthrough" target="_blank">this link</a>
 <br>
-Also read through [this link](/Toolbox/VSCode/walkthrough)
+
+
 ---
 
 ## Tutorial 3: Create your first git repo and commit to it
@@ -69,8 +70,7 @@ dotNet Core is slightly different, yes there is a single application file, but i
 Now the platform will still create an executable file and you can still run that by double-clicking on it - so let's have a look at how to do that.  
 Once you have published your app you will need to do a git commit to update the changes in your repository  
 
-[Deploy your app](./dotnet-core-deploy)
-
+<a href="//to-bcs.nz/DotNetCore/dotnet-core-deploy" target="_blank">Deploy your app</a>
 ---
 
 ## Tutorial 6: Setting up Code Snippets
@@ -81,8 +81,7 @@ When we code, we often repeat certain code blocks or patterns quite often. Some 
 However, some are tedious - for example, what if every time you started a project you had to retype the beginning and end part of a program?  
 Let's have a look at how we make life a little easier using user code snippets.  
 
-[Code Snippets](./vscode-code-snippet)
-
+<a href="//to-bcs.nz/VSCode/code-snippet" target="_blank">Code Snippets</a>
 ---
 
 ## Tutorial #7 - Looking at Documentation
@@ -93,7 +92,7 @@ The internet is loaded with documentation and videos to find what we need when l
 So far we have looked at the console class and how some of the methods work.  
 We can find the documentation for the console class here:  
 
-[MSDN System.Console](https://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx)
+<a href="https://msdn.microsoft.com/en-us/library/system.console(v=vs.110).aspx" target="_blank">MSDN System.Console</a>
 
 To get to that website, it is as simple as searching in Google for MSDN C# Console Class
 
