@@ -10,11 +10,9 @@ permalink: /week01-csharp
 
 ---
 
-## Tutorial 4a: Deploying your application
+## Tutorial 4a: Install dotnet SDK (only once)
 
 ---
-
-## First-time C# - Install dotnet SDK (only once)
 
 To start working with C#, you will need to install the `dotnet core SDK`, so that you can compile (run and see) your application.
 
@@ -28,11 +26,11 @@ Select the right page for the Operating System you are using:
 
 ---
 
-## Tutorial 4b: Deploying your application
+## Tutorial 4b: Creating your first app (every time)
 
 ---
 
-## Creating your first app (every time)
+## Creating a new app
 
 Open up the terminal  
 
@@ -82,7 +80,7 @@ Once you have published your app you will need to do a git commit to update the 
 
 ---
 
-## Tutorial #4d - Looking at Documentation
+## Tutorial 4d - Looking at Documentation
 
 ---
 
