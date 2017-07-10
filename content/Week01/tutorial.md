@@ -39,7 +39,7 @@ Also read through [this link](/Toolbox/VSCode/walkthrough)
 Let's have a quick look at how git works and create a repository.
 This will not leave your machine, but gives you an introduction of how to start.
 
-[My first git commit](./first-git)
+<a href="//to-bcs.nz/Toolbox/Git/first-git" target="_blank">My First Git Project</a>
 
 ---
 
