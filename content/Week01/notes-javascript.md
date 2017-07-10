@@ -67,4 +67,12 @@ You should now see the line displayed in the browser.
 
 Note that to use javascript, you do not need to install anything. However, you can use JS Libraries which we will look at later.
 
+---
+
+## Tutorial 4b: Deploying your website
+
+---
+
+This is just a need to know for now
+
 > We will talk about using a webserver later in the course.
