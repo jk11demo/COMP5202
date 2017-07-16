@@ -1,0 +1,7 @@
+.vscode/
+bin/
+obj/
+
+RemoveRed/.vscode/
+RemoveRed/bin/
+RemoveRed/obj/
