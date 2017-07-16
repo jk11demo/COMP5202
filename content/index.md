@@ -10,11 +10,6 @@ permalink: /
 
 This course will cover the fundamentals of programming and problem solving, but before we can begin, we need to set up the tools we are using for this course.
 
-# Relevant Links:
-
-<a href="./courseoutline" class="iconlrg btn btn-info" target="_blank" style="font-size: 20pt;">Course Outline</a>
-<a href="https://docs.google.com/spreadsheets/d/1Kyxe0idUb_O09J7hGecY9ttSa_Rm4I3UufUpQV9yhbQ/edit#gid=662877829" class="iconlrg btn btn-warning" target="_blank" style="font-size: 20pt;">Time Table Semester 2</a>
-
 # What I need
 
 You can complete this course on any PC, and the tools we use are available on multiple operating systems.
@@ -30,9 +25,11 @@ Also note that all the screenshots are made on a mac, but will look the same on 
 
 -----
 
+<br>
 # Programs
 
-**[Visual Studio Code](https://code.visualstudio.com) (vscode)**  
+<div class="titlelink"><a href="https://code.visualstudio.com">Visual Studio Code </a></div>
+
 
 The  IDE (Integrated Development Environment) we will use is Visual Studio Code.
 Although you can use any text editor you wish, all the demo's will use VSCode for consistency. In addition to that, all the coding you do in this course can be completed using vscode.
@@ -42,7 +39,7 @@ Although you can use any text editor you wish, all the demo's will use VSCode fo
 | [Download](https://vscode-update.azurewebsites.net/latest/win32/stable) | [Download](https://vscode-update.azurewebsites.net/latest/darwin/stable)| [Download]((https://vscode-update.azurewebsites.net/latest/linux-deb-x64/stable)) |
 
 <br>
-**[Git](https://git-scm.com)**
+<div class="titlelink"><a href="https://git-scm.com">Git</a></div>
 
 To save and manage our code we will use git. Git is also the tool that is used to submit your assignments.
 The course will introduce you in detail on how to use the basics of git. Note you will not be able to use USB sticks and upload your files any other way.
@@ -52,12 +49,13 @@ The course will introduce you in detail on how to use the basics of git. Note yo
 | [download here](https://github.com/git-for-windows/git/releases/download/v2.13.1.windows.2/Git-2.13.1.2-64-bit.exe) | Open the Terminal using `Ctrl+Alt+T` and type in `sudo apt-get install -y git`  | Open the Terminal using spotlight and type in `xcode-select --install` |
 
 ---
-## Services
+
 <br>
+## Services
 
 ---
 
-**[Github](https://github.com/join?source=header-home)**
+<div class="titlelink"><a href="https://github.com/join?source=header-home">Github</a></div>
 
 ---
 
@@ -72,7 +70,7 @@ In the first class, we will go through this process, if you have not done so alr
 
 ---
 
-**[Slack](https://to-bcs.slack.com/)**
+<div class="titlelink"><a href="https://to-bcs.slack.com/">Slack</a></div>
 
 ---
 
@@ -80,7 +78,7 @@ You can signup using your `@g.toiohomai.ac.nz` account. It must be this one, as 
 
 ---
 
-**[Google Drive](https://drive.google.com)**
+<div class="titlelink"><a href="https://drive.google.com">Google Drive</a></div>
 
 ---
 
@@ -88,10 +86,12 @@ You can access your drive and emails using your `studentid@g.toiohomai.ac.nz` Go
 You can, of course, use it store docs, images and anything else. This account will be active forever so you can safely store your stuff on there.
 
 ---
+
 <br>
 ## Portfolio
 
-<br>
+---
+
 For this course, you will set up a portfolio for what you have created. Google Drive allows us to save our Google Site as a new document so that everything is in the same folder.
 
 Your code will go on Github, but everything else will be 
