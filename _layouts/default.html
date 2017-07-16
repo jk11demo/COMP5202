@@ -43,15 +43,19 @@
             </nav>
 
             <div class="container-fluid wrapper">
-
+                <div class="logophone">
+                    <img style="width:100%; float:right;" src="https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/master/ToiOhomai_Images/Merged-Toi-Ohomai.png" alt="toiohomai logo" />
+                </div>
                 <div class="row">
-                    <div class="col-xs-12">
-                        <img style="width:40%" src="https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/master/ToiOhomai_Images/Merged-Toi-Ohomai.png" alt="toiohomai logo" />
+                    <div class="col-sm-6 col-xs-12">
                         <h1 class="title" style="color:#aaa">{{ page.coursecode | default: page.post_title }}</h1>
                         <h2 class="title" style="color:#aaa">{{ page.coursename }}</h2>
-                        <a href="{{ site.github.repository_url }}" class="btn btn-success">View on GitHub</a>
+                        <a href="{{ site.repository_url }}" class="btn btn-success" target="_blank">View on GitHub</a>
                         <span class="btn btn-primary">{{page.semester}}</span>
                         <a href="https://to-bcs.slack.com/messages/{{ site.slackclass }}" target="_blank" class="btn btn-default"><i class="fa fa-slack" aria-hidden="true" > Chat on Slack</i></a>
+                    </div>
+                    <div class="col-sm-6 hidden-xs">
+                        <img style="width:60%; float:right;" src="https://raw.githubusercontent.com/ToiOhomaiBCS/jk11files/master/ToiOhomai_Images/Merged-Toi-Ohomai.png" alt="toiohomai logo" />
                     </div>
                 </div>
 
@@ -60,7 +64,22 @@
                 <div class="row">
                     <div class="col-sm-2 col-xs-12" id="siderow">
                         <ul class="coursemenu list-group">
-                            {% for item in site.data.courses.sections %}
+                            {% for item in site.data.courses.current%}
+                            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        <ul class="coursemenu list-group">
+                            {% for item in site.data.courses.alltimes%}
+                            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        <ul class="coursemenu list-group">
+                            {% for item in site.data.courses.weeks%}
+                            <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        <ul class="coursemenu list-group">
+                            {% for item in site.data.courses.previous%}
                             <li class="list-group-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
                             {% endfor %}
                         </ul>
@@ -75,24 +94,6 @@
 
             </div>
             
-            <footer class="footer push" >
-
-                <table class="table boxsizing">
-                    <thead>
-                        <th>Slack</th>
-                        <th>Social</th>
-                    </thead>
-                    <tr>
-                        <td><h3><a href="https://to-bcs.slack.com/messages/{{ site.slackclass }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > </i>{{ site.slackclass }}</a></h3></td>
-                        <td><h3><a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github" aria-hidden="true" ></i> {{ site.github_username }}</a></h3></td>
-                    </tr>
-                    <tr>
-                        <td><h3><a href="https://to-bcs.slack.com/messages/@{{ site.slacktutor }}" target="_blank"><i class="fa fa-slack" aria-hidden="true" > </i>{{ site.slacktutor }}</a></h3></td>
-                        <td><h3><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" > </i>{{ site.twitter_username }}</a></h3></td>
-                    </tr>
-                </table>
-
-            </footer>
         </div>
         <!-- Content ends here -->
         <script   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous"></script>

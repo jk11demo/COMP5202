@@ -1,10 +1,17 @@
-sections:
+alltimes:
+    - name: Toolbox
+      link: /Toolbox/
+    - name: Time Table
+      link: https://docs.google.com/spreadsheets/d/1Kyxe0idUb_O09J7hGecY9ttSa_Rm4I3UufUpQV9yhbQ/edit#gid=662877829
+
+
+current:
     - name: Home
       link: /COMP5202/
     - name: Course Outline
       link: /COMP5202/courseoutline
-    - name: Toolbox
-      link: /COMP5202/toolbox
+
+weeks:
     - name: Week 01
       link: /COMP5202/week01-index
     - name: Week 02
