@@ -20,6 +20,7 @@ To complete these exercises you need to get the base projects on your machine.
 * Log into Github
 
 * You need to fork the class repository, this will give you a copy of the class tutorials.
+<br>
 [COMP5202 Repo](https://github.com/ToiOhomaiBCS/COMP5202)
 
 * In the top right you see a button called **Fork** - Click on that and confirm the process.
