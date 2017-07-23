@@ -31,7 +31,7 @@ Remember to setup a new project to do this:
 * Create dotnet project : `dotnet new console`
 * Open the project in vscode : `code .`
 
-Once you are in your project, open the integrated terminal (`Ctrl + Backtick`) or (`⌘+backtick`)
+Once you are in your project, open the integrated terminal (`Ctrl + Backtick`)
 Now you are in the project folder and could close the git bash windows (this is optional)
 
 Run your project:
@@ -74,7 +74,7 @@ Create a new project and call it loops-pg01 (Loops Playground 01)
 Setup a constant that will serve as your counter.
 * Set the value to 5
 
-Setup a constant that will serve as your index.
+Setup a variable that will serve as your index.
 * Set the value to 0
 
 Next create a for loop that will print the line `Hello World` the number of times to which the counter has been set. 
@@ -90,7 +90,7 @@ Now comment out the code from the previous loop and its setup.
 Setup a constant that will serve as your counter.
 * Set the value to 50
 
-Setup a constant that will serve as your index.
+Setup a variable that will serve as your index.
 * Set the value to 0
 
 In a code block of a loop you can use if statements.
