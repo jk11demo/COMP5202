@@ -23,7 +23,7 @@ Again pseudo code can be written and is often initially written outside of a cod
 <br>
 # Psuedocode with Simon
 
-<iframe src="https://app.pluralsight.com/player?author=simon-allardice&name=what-is-programming-m2&clip=3" width="100%" height="450px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://app.pluralsight.com/player?author=simon-allardice&name=what-is-programming-m2&mode=live&clip=3&course=what-is-programming" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 <br>
 # How to use psuedocode
