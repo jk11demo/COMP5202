@@ -30,7 +30,7 @@ We are able to get a user input by using `Console.ReadLine()`
 Input from a `Console.ReadLine()` can be linked to a variable. If we use `var` the type will always be a string.
 If we want it to be something else, we need to **Parse** or **Convert** the value. 
 
-```c#
+```csharp
 var name = Console.ReadLine();
 ```
 
@@ -44,7 +44,7 @@ For this we use the `Console.WriteLine()` we already know about. Otherwise the u
 
 Let's look at the example below:
 
-```c#
+```csharp
 
     Console.WriteLine("What is your name?");
     var name = Console.ReadLine();
