@@ -7,9 +7,14 @@ permalink: /week04-index
 ---
 
 # Week 04:
-## Dictionaries
-## Properties
+
+## User input
+## Parsing and Conversion
 
 <br><br>
 
 # Weekly Overview
+
+| Week | Topics | Tutorials|
+| --- | --- | --- |
+| | | |

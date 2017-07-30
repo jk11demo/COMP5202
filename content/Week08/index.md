@@ -3,12 +3,14 @@ layout: default
 semester: Semester 17B
 coursecode: COMP5202
 coursename: Fundamentals of Programming
-permalink: /week06-index
+permalink: /week08-index
 ---
 
-# Week 06:
+# Week 08:
 
-## TEST ON MONDAY 10:10 DT308
+## Classes
+## Encapsulation
+## Inheritance
 
 <br><br>
 

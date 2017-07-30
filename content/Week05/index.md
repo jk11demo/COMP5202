@@ -8,8 +8,8 @@ permalink: /week05-index
 
 # Week 05:
 
-## Methods / Functions
-
+## Dictionaries
+## Properties
 
 <br><br>
 
