@@ -77,6 +77,7 @@ while(index < counter) {
     let a = i + 1;
     console.log("This is line number " + a);
 
+    i++
 }
 ```
 
@@ -90,6 +91,8 @@ let index = 0;
 
     let a = i + 1;
     console.log("This is line number " + a);
+
+    i++
 
 }while(index < counter);
 ```
@@ -154,21 +157,20 @@ var reverse = multiples.reverse() //"camel", "sheep", 102, 374, 256, 1064
 ### Adding to the end of the array
 
 ```js
-var newLength = fruits.push('Orange');
-// ["Apple", "Banana", "Orange"]
+var newLength = multiples.push('horse');
+// [1064, 256, 374, 102, "sheep", "camel", "horse"]
 ```
 
 ## Removing the last item of the array
 
 ```js
-var last = fruits.pop(); // remove Orange (from the end)
-// ["Apple", "Banana"];
+var last = multiples.pop(); // remove "camel" (from the end)
 ```
 
 ## Finding a position of an item in an array
 
 ```js
-var pos = fruits.indexOf('camel'); //5
+var pos = multiples.indexOf('camel'); //5
 ```
 
 > ## [Arrays => Javascript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
