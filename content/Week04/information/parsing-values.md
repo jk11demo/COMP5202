@@ -24,7 +24,7 @@ If we want to convert a string to a whole number we would use `int.Parse(string)
 
 For a conversion to happen successfully the input from the user needs to be a number, or else you will get a value of 0 or a program crash.
 
-```C#
+```csharp
 Console.WriteLine("Please enter in a number");
 var input1 = Console.ReadLine();
 var number1 = int.Parse(input1);
@@ -37,7 +37,7 @@ Console.WriteLine(number1 * 2);
 As the name implies, a `tryParse()` tries to parse the string. This is a boolean operation, which returns `true` or `false`
 For this we need to setup 2 variables, one that holds a number (`int`, `double`, `floats`) and one that holds the `boolean` value.
 
-```C#
+```csharp
 //Get input from user
 Console.WriteLine("Please enter in a number");
 var input1 = Console.ReadLine();
