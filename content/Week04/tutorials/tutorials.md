@@ -3,7 +3,7 @@ layout: default
 semester: Semester 17B
 coursecode: COMP5202
 coursename: Fundamentals of Programming
-permalink: /week04-csharp-userinput-tutorial
+permalink: /week04-tutorial
 ---
 
 # Week 04:
@@ -14,12 +14,17 @@ permalink: /week04-csharp-userinput-tutorial
 
 ---
 
-# Prerequisites:
+# Prerequisites for C#:
 
 * Plan your solution, write out the flow diagram before you code the solution.
 * Use a nice user interface, you can create a title and use `********` to create line breaks.
 * End each application with a `Console.ReadKey();` so that the application ends gracefully
 * Use the code snippet to create a clean running application
+
+# Prerequisites for Javascript:
+
+* Plan your solution, write out the flow diagram before you code the solution. (Does the C# plan work for JS?)
+* Use a nice user interface, you can create a title and use `********` to create line breaks.
 
 ---
 
